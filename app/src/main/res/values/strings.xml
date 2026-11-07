@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dutch is the default language (CLAUDE.md); English follows in values-en. -->
+<resources>
+    <string name="app_name">Cask &amp; Label</string>
+    <string name="tab_journal">Journal</string>
+    <string name="tab_groups">Groepen</string>
+    <string name="tab_settings">Instellingen</string>
+
+    <string name="not_configured">De app is nog niet gekoppeld aan de server. Zet de publishable key van Supabase in local.properties (supabase.publishableKey) en bouw opnieuw.</string>
+    <string name="offline_banner">Geen verbinding. Zonder internet kan je niets bekijken of bewaren.</string>
+    <string name="error_offline">Geen verbinding met de server. Controleer je internet en probeer opnieuw.</string>
+    <string name="error_wrong_login">E-mailadres of wachtwoord klopt niet.</string>
+    <string name="error_not_confirmed">Bevestig eerst je e-mailadres via de mail die we stuurden.</string>
+    <string name="error_unknown_code">Deze code kennen we niet, of ze werd ingetrokken.</string>
+    <string name="error_already_registered">Er bestaat al een account met dit e-mailadres. Meld je aan.</string>
+    <string name="error_generic">Dat lukte niet: %1$s</string>
+
+    <string name="auth_intro">Leg vast wat je proeft en vergelijk het met je vrienden. Meld je aan om je journal op de server te bewaren en te delen in je groepen.</string>
+    <string name="auth_email_private">Je e-mailadres ziet niemand anders.</string>
+    <string name="sign_in">Aanmelden</string>
+    <string name="create_account">Account maken</string>
+    <string name="email">E-mailadres</string>
+    <string name="password_hint">Wachtwoord (minstens 8 tekens)</string>
+    <string name="auth_signup_footer">Je krijgt eventueel een mail om je adres te bevestigen. Daarna meld je je hier aan.</string>
+    <string name="auth_confirm_mail">Bevestig je adres via de mail die we stuurden, en meld je daarna hier aan.</string>
+    <string name="sign_out">Afmelden</string>
+    <string name="sign_out_confirm">Afmelden van Cask &amp; Label?</string>
+
+    <string name="profile_title">Welkom</string>
+    <string name="profile_intro">Kies de naam die je groepsgenoten zien. Andere gegevens zijn niet nodig.</string>
+    <string name="your_name">Jouw naam</string>
+    <string name="adult_confirm">Ik ben 18 jaar of ouder</string>
+    <string name="adult_footer">Cask &amp; Label gaat over alcohol en is alleen voor volwassenen. Drink met mate.</string>
+    <string name="start">Starten</string>
+    <string name="retry">Opnieuw proberen</string>
+
+    <string name="account">Account</string>
+    <string name="signed_in_as">Aangemeld als %1$s</string>
+    <string name="display_name_value">Naam: %1$s</string>
+    <string name="display_name_footer">Deze naam zien de leden van je groepen.</string>
+    <string name="change_name">Naam wijzigen</string>
+    <string name="about">Over</string>
+    <string name="about_text">Whisky journal met vrienden. Wat je met een groep deelt, zien alleen de leden van die groep; al de rest blijft privé.</string>
+    <string name="version">Versie %1$s</string>
+    <string name="drink_responsibly">Drink met mate. Alleen voor 18+.</string>
+
+    <string name="age_years">%1$d jaar</string>
+    <string name="abv_value">%1$s %%</string>
+    <string name="label_photo">Etiketfoto</string>
+    <string name="sort">Sorteren</string>
+    <string name="sort_date">Datum</string>
+    <string name="sort_score">Score</string>
+    <string name="sort_name">Naam (A–Z)</string>
+    <string name="search_name">Zoek op naam</string>
+    <string name="scope_all">Alles</string>
+    <string name="scope_private">Privé</string>
+    <string name="journal_empty">Nog geen tastings. Tik op \"Nieuwe tasting\" om je eerste fles vast te leggen.</string>
+    <string name="journal_no_match">Geen tastings die passen bij je keuze.</string>
+    <string name="new_tasting">Nieuwe tasting</string>
+    <plurals name="tastings_count">
+        <item quantity="one">%1$d tasting</item>
+        <item quantity="other">%1$d tastings</item>
+    </plurals>
+
+    <string name="back">Terug</string>
+    <string name="taste_again">Nog een tasting</string>
+    <string name="average_score">Gemiddeld %1$s (%2$d)</string>
+    <string name="bottle_pending">Nog niet goedgekeurd voor de catalogus: alleen zichtbaar voor jou en de groepen waarin je hem deelt.</string>
+    <string name="tastings">Tastings</string>
+    <string name="no_tastings_bottle">Nog geen tastings van deze fles.</string>
+    <string name="delete_tasting_confirm">Deze tasting verwijderen?</string>
+    <string name="delete">Verwijderen</string>
+    <string name="cancel">Annuleer</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="unknown">Onbekend</string>
+    <string name="sources">Bron: %1$s</string>
+    <string name="nose_value">Neus: %1$s</string>
+    <string name="palate_value">Smaak: %1$s</string>
+    <string name="finish_value">Afdronk: %1$s</string>
+    <string name="price_value">Betaald: € %1$s</string>
+
+    <string name="field_name_required">Naam *</string>
+    <string name="field_brand">Merk</string>
+    <string name="field_distillery">Distilleerderij</string>
+    <string name="field_kind">Soort</string>
+    <string name="field_country">Land</string>
+    <string name="field_region">Regio</string>
+    <string name="field_age">Leeftijd</string>
+    <string name="field_abv">Alcohol %</string>
+    <string name="field_volume">Inhoud</string>
+    <string name="field_volume_cl">Inhoud (cl)</string>
+    <string name="field_peated">Peated</string>
+    <string name="field_cask_types">Vat type</string>
+    <string name="field_features">Kenmerk</string>
+    <string name="field_flavor_profile">Smaakprofiel</string>
+    <string name="field_place">Plaats</string>
+    <string name="field_founded">Opgericht</string>
+    <string name="field_owner">Eigenaar distilleerderij</string>
+
+    <string name="new_group">Nieuwe groep</string>
+    <string name="name">Naam</string>
+    <string name="create">Maak</string>
+    <string name="groups_empty">Je zit nog in geen enkele groep. Maak er een of word lid met een code.</string>
+    <string name="join_with_code">Lid worden met een code</string>
+    <string name="groups_footer">Wat je met een groep deelt, zien alleen de leden van die groep. Al de rest blijft privé.</string>
+    <plurals name="members_count">
+        <item quantity="one">%1$d lid</item>
+        <item quantity="other">%1$d leden</item>
+    </plurals>
+    <string name="join_title">Lid worden</string>
+    <string name="code">Code</string>
+    <string name="scan_qr">Scan de QR-code</string>
+    <string name="join_footer">De code van 6 tekens die je van de beheerder van de groep kreeg.</string>
+    <string name="join">Word lid</string>
+    <string name="members">Leden</string>
+    <string name="admin">beheerder</string>
+    <string name="invite">Nodig uit</string>
+    <string name="group_no_tastings">Nog geen tastings. Deel er een bij het bewaren van een tasting (\"Delen met\").</string>
+    <string name="leave_group">Verlaat de groep</string>
+    <string name="leave_group_confirm">Groep verlaten?</string>
+    <string name="leave_group_text">Je tastings in deze groep worden weer privé.</string>
+    <string name="invite_title">Nodig uit voor %1$s</string>
+    <string name="invite_explain">Laat je vriend deze QR-code scannen, of de code typen in Cask &amp; Label (Groepen → Lid worden met een code).</string>
+    <string name="qr_for">QR-code voor %1$s</string>
+    <string name="invite_share_text">Doe mee met %1$s in Cask &amp; Label! Open de app, ga naar Groepen → Lid worden met een code en typ %2$s.</string>
+    <string name="share_code">Deel de code</string>
+    <string name="revoke_code">Code intrekken</string>
+    <string name="code_revoked">De code is ingetrokken.</string>
+    <string name="done">Klaar</string>
+
+    <string name="choose_bottle">Kies een fles</string>
+    <string name="new_bottle">Nieuwe fles</string>
+    <string name="search_bottle">Zoek op naam of merk</string>
+    <string name="no_bottles_found">Geen flessen gevonden. Voeg een nieuwe fles toe.</string>
+    <string name="take_photo">Foto maken</string>
+    <string name="choose_photo">Foto kiezen</string>
+    <string name="photo_private_note">De etiketfoto komt op de server en is alleen zichtbaar voor wie de fles mag zien.</string>
+    <string name="bottle_pending_note">Een nieuwe fles is een voorstel voor de catalogus: tot de beheerder ze goedkeurt, zien alleen jij en de groepen waarin je ze deelt haar.</string>
+    <string name="next">Volgende</string>
+    <string name="score_value">Score: %1$s</string>
+    <string name="nose">Neus</string>
+    <string name="palate">Smaak</string>
+    <string name="finish">Afdronk</string>
+    <string name="flavor_tags">Smaaktags</string>
+    <string name="price_paid">Eigen prijs (€, optioneel)</string>
+    <string name="change_date">Datum</string>
+    <string name="change_time">Tijd</string>
+    <string name="share_with">Delen met</string>
+    <string name="share_footer">Privé: alleen jij. Een groep: alleen de leden van die groep.</string>
+    <string name="save">Bewaar</string>
+    <string name="ok">OK</string>
+</resources>
